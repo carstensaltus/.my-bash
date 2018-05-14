@@ -3,7 +3,7 @@
 Add this to your `.bash_profile` file
 
 ```bash
-for f in ~/.my-bash/*; do
+for f in ~/.my-bash/*.include.sh; do
    source "$f"
 done
 ```
